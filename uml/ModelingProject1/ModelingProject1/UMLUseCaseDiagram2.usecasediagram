@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner" dslVersion="1.0.0.0" Id="8f3ab06f-a913-4a47-bfc6-6ba4197437b2" name="UMLUseCaseDiagram2" linkedPackageId="e29deb31-6763-4b28-8c2b-a04aac42117d" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="5cba1bfb-7ad0-4b21-86b7-36d6fcd7003e">
+      <profileInstance Id="cdc9eb45-2187-42ac-9bc7-b4287b416299" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="284ca6c0-013b-4225-9a25-3bb598791574">
+      <profileInstance Id="7f71af91-fc92-4b52-a8f9-7e1875a08ada" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="9c5e227a-7ecd-4551-8abb-bb7d2ce975d4" name="Оддӣ" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5151f592-e9d6-429b-9f04-9e6f1bd39bfc" />
+        <targetEnds>
+          <association Id="15c4195a-c774-4ac9-8ab0-3ecb6fde94e5" isDerived="false" sourceEndRoleName="Оддӣ" targetEndRoleName="Бақайдгирӣ" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f267b04a-b2e0-4330-9493-c25028795e23" LastKnownName="Бақайдгирӣ" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d36dc341-0283-41d6-a432-dff5306b931c" name="Оддӣ" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3bf5a51b-0c70-4995-87ae-9d9aa8c651fa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5e6d0a21-59ad-4b5e-aa04-0c6f18989199" name="Бақайдгирӣ" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8fea7fd9-c608-41d3-a49d-b712cc2ba2e2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b3a3eaf9-80ae-4f9b-bb0d-9cb89735a4fb" />
+          </association>
+          <association Id="a90fedfd-8c54-4c07-a78a-ceb028a7e0d8" isDerived="false" sourceEndRoleName="Оддӣ" targetEndRoleName="Каталоги электронии бемориҳо" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="072bac50-6a87-4ce7-abb6-ac65596b017e" LastKnownName="Каталоги электронии бемориҳо" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e6129d6d-6780-40e5-bfd6-801ab76807f1" name="Оддӣ" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="dafc432b-f3a6-4f5d-bc5c-cc03fff8509b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="64d17c16-7489-407a-ad91-9f9d1e54a3d0" name="Каталоги электронии бемориҳо" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ca3acf3c-2d63-41c9-96c0-41c751fdbad3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="17845e1e-52b4-4e34-ba33-4b2cfccd60f6" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="717757f7-12f6-490f-b0c1-0b9735b7755c" name="Истифодабаранда" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="70e78a00-b26c-4a94-879f-c78227bd6920" />
+        <generalsInternal>
+          <generalization Id="12c74669-35c8-4c13-844b-a519dc24b196" isSubstitutable="false">
+            <actorMoniker Id="9107a2d3-723e-455c-a72d-3b2dfa63995d" LastKnownName="Аз қайд гузашта" />
+            <elementDefinition Id="719ed477-0b30-4dbe-a84c-bad47caa1761" />
+          </generalization>
+          <generalization Id="b94e08af-38b3-4cd7-b786-b47cb86ec116" isSubstitutable="false">
+            <actorMoniker Id="9c5e227a-7ecd-4551-8abb-bb7d2ce975d4" LastKnownName="Оддӣ" />
+            <elementDefinition Id="92345dc9-f1a5-4ecc-a41a-333b44175d97" />
+          </generalization>
+        </generalsInternal>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="9107a2d3-723e-455c-a72d-3b2dfa63995d" name="Аз қайд гузашта" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bd65008b-686e-4a73-930c-cbfb1295817c" />
+        <targetEnds>
+          <association Id="49633e92-4051-4095-8902-8b20ff37362d" isDerived="false" sourceEndRoleName="Аз қайд гузашта" targetEndRoleName="Ташхиси бархатии бемориҳо" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3e7f493b-da67-49ba-ad7d-fe3a102eed7f" LastKnownName="Ташхиси бархатии бемориҳо" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="218a4519-81f4-41ed-b86c-7044082c86f7" name="Аз қайд гузашта" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1f83c1f4-7557-4a65-864a-90898ae023ec" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="012a9148-4045-44be-a82f-6345456b0a6a" name="Ташхиси бархатии бемориҳо" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="56cf08bf-c783-453b-9f21-3675008799e4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="bcef4c71-b606-4a83-b004-2a315c20ff7f" />
+          </association>
+          <association Id="e9af701c-3e52-411e-a233-3784861f171c" isDerived="false" sourceEndRoleName="Аз қайд гузашта" targetEndRoleName="Каталоги электронии бемориҳо" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="072bac50-6a87-4ce7-abb6-ac65596b017e" LastKnownName="Каталоги электронии бемориҳо" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e3bb3f60-d973-4efa-8860-460c1c62274e" name="Аз қайд гузашта" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3300c762-5562-4246-883b-0d673a173c07" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5653817e-d3eb-4e9b-a6cf-956c2684fc2e" name="Каталоги электронии бемориҳо" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7c8aff85-3520-4432-9462-117281929f4d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c7a5c4ce-f446-4e1f-ab8e-cce35067300d" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="e1a56140-31a1-4212-8901-8314120da9e3" name="Мутахассиси тиб" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a0215012-02a2-4e8e-a7dc-ee39d24e0d39" />
+        <targetEnds>
+          <association Id="66ca2555-55b3-4606-b9ba-9b0ccacb852f" isDerived="false" sourceEndRoleName="Мутахассиси тиб" targetEndRoleName="Назорати ташхис" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="8ecf8772-d3a8-4f4c-9134-db7480e2d468" LastKnownName="Назорати ташхис" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="82456f16-78c7-49a4-8a41-48e3fa876dfe" name="Мутахассиси тиб" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="604a551e-33b1-4ed0-8404-ffea745a4116" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c690e6ce-78ea-407a-974c-9833a354bbef" name="Назорати ташхис" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="00d41525-e5db-4743-95b6-ffe962ba5a25" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="df239082-2a6d-4f9a-afde-95c4126acf30" />
+          </association>
+          <association Id="07c2616b-d74b-40d3-b6e8-74105606a43b" isDerived="false" sourceEndRoleName="Мутахассиси тиб" targetEndRoleName="Ивази маълумот" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="745f3b52-999e-4299-af8f-705ccc3a3d7c" LastKnownName="Ивази маълумот" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f509fd6f-fadd-4bf5-a7ee-561c7ab121b9" name="Мутахассиси тиб" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="accb0a19-d8b6-4dd7-b2b8-69235913fa85" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="de456fda-c966-4d30-b167-2a4170ec2351" name="Ивази маълумот" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2c84309e-9e42-4bdb-997d-0c1fa9c32f5d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="bb2deb39-5b60-49b6-ad75-1690d9a834f5" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3e7f493b-da67-49ba-ad7d-fe3a102eed7f" name="Ташхиси бархатии бемориҳо" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7fce48f4-8dd4-4fc2-85b2-820d43bd2b0b" />
+        <additions>
+          <include Id="d2c22e45-eaeb-4902-891c-4066cf6910ed">
+            <useCaseMoniker Id="1fdefa92-ee8a-4269-825a-11ef6065d818" LastKnownName="Интихоби синну сол ва ҷинс" />
+            <elementDefinition Id="66c11705-91c0-4cc0-85a7-584049764fb3" />
+          </include>
+          <include Id="64cac600-a241-4c8b-8df4-213e7f3f0639">
+            <useCaseMoniker Id="bebc19b5-60ba-41b4-bddc-53b2e7c89c51" LastKnownName="Интихоби узви бадан" />
+            <elementDefinition Id="5bcbcaa1-41af-40a3-8e9f-3218ccfe0e20" />
+          </include>
+          <include Id="527d99ea-f3fb-40a8-85d5-e57d0fca84bd">
+            <useCaseMoniker Id="e006ae5b-7304-49d4-b536-c0b07163e3dd" LastKnownName="Воридкунииқимати вазн ва қад" />
+            <elementDefinition Id="d43682fb-decc-4f76-81ec-601690ed3d47" />
+          </include>
+          <include Id="2a6a6631-98a7-468a-a51f-fb86a4b3d325">
+            <useCaseMoniker Id="c97f8667-c420-4f09-9472-bab4e863938d" LastKnownName="Интихоби нишонаҳои бемориҳо" />
+            <elementDefinition Id="a1958882-9f75-4c77-a4fe-be693c85262e" />
+          </include>
+          <include Id="d4731fa1-6c0c-45d0-9614-c9767380c194">
+            <useCaseMoniker Id="7b12525c-7ad1-4b8d-b972-c745009f8b84" LastKnownName="Баровардани эҳтимолияти беморӣ" />
+            <elementDefinition Id="a4ca441e-0ab3-43e1-835f-4220bef27528" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f267b04a-b2e0-4330-9493-c25028795e23" name="Бақайдгирӣ" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f93fdda9-2dda-4a14-a2f0-49381371a387" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5094b57b-0785-4bc3-993a-48e41f112336" name="Маълумотҳои асосӣ" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f29a1582-5aeb-40ac-a41f-0ddcb4797f6d" />
+        <targetEnds>
+          <association Id="cf0e90e4-118b-4bbf-bdf1-90babbe9c17d" isDerived="false" sourceEndRoleName="Маълумотҳои асосӣ" targetEndRoleName="Бақайдгирӣ" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f267b04a-b2e0-4330-9493-c25028795e23" LastKnownName="Бақайдгирӣ" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e8371a21-05a0-4305-a3ac-de1e71a5ed22" name="Маълумотҳои асосӣ" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e4d10032-1aa5-4bf2-af0b-6dc17a97a393" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="73199aa2-d680-48d8-bd44-6b1eff7821f3" name="Бақайдгирӣ" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="17a9b862-3ece-479b-86b1-50417ec2e5c0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b8c70031-a24a-44e1-808f-f35cd81952de" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="072bac50-6a87-4ce7-abb6-ac65596b017e" name="Каталоги электронии бемориҳо" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="205b3f9c-fecc-426c-9c9e-e1c6b430f4c8" />
+        <targetEnds>
+          <association Id="0da59a06-ce9f-43be-9d76-b4bc9b3c5a17" isDerived="false" sourceEndRoleName="Каталоги электронии бемориҳо" targetEndRoleName="Ҷустуҷӯ" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f103905b-6732-47a8-bf1d-48befd7972ff" LastKnownName="Ҷустуҷӯ" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e6e4ecfe-2b25-469a-a5ad-51a5d70bad5b" name="Каталоги электронии бемориҳо" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9373f6fa-7dd8-476e-b81a-52ffe11fc64b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1fb3ec1c-c74b-4d47-a46a-3d7ac34d822d" name="Ҷустуҷӯ" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="eea7a820-e509-4ef6-881a-a9aff3937ec8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="317c5acf-2d45-4215-aa0f-feb2867d4525" />
+          </association>
+        </targetEnds>
+        <extendedCases>
+          <extend Id="c15844ae-402e-4725-8638-781ff459abc8">
+            <useCaseMoniker Id="861ae3ad-6014-447f-b12d-c09c90c81f64" LastKnownName="Тавсифи умумии бемори " />
+            <elementDefinition Id="3170a907-fba4-4553-b5d3-b62023090475" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="372fa7b1-0e88-426c-a9f2-c6eca46f93f3" name="Интихоби категория" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="aa5952a0-0acc-4a59-ab55-1439097d3f47" />
+        <additions>
+          <include Id="6f19bea8-6078-4ee6-a8d6-27ac47aa77d0">
+            <useCaseMoniker Id="072bac50-6a87-4ce7-abb6-ac65596b017e" LastKnownName="Каталоги электронии бемориҳо" />
+            <elementDefinition Id="cba31883-7994-4fb3-8009-457268fddedf" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7fdb6c3f-d66a-4f5b-923a-74c242157b83" name="Интихоби бемори" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="51d7922a-c49d-4879-a43f-217b1796b3f9" />
+        <additions>
+          <include Id="17ebaed0-6431-433f-9d2e-1e5e4023effb">
+            <useCaseMoniker Id="072bac50-6a87-4ce7-abb6-ac65596b017e" LastKnownName="Каталоги электронии бемориҳо" />
+            <elementDefinition Id="3c6808c3-29aa-4f42-a2f2-6c8f7b5a66fd" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="861ae3ad-6014-447f-b12d-c09c90c81f64" name="Тавсифи умумии бемори " isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f8dce322-f727-4cff-8a69-39357d057668" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f103905b-6732-47a8-bf1d-48befd7972ff" name="Ҷустуҷӯ" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="45ee7251-dfd8-4e5d-a3d6-57c14b036dea" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e006ae5b-7304-49d4-b536-c0b07163e3dd" name="Воридкунииқимати вазн ва қад" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a610c5c4-24c4-47c9-97c9-19ca65657e2e" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c97f8667-c420-4f09-9472-bab4e863938d" name="Интихоби нишонаҳои бемориҳо" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f33d3dd2-f382-4361-8d48-9b54601e0fe5" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1fdefa92-ee8a-4269-825a-11ef6065d818" name="Интихоби синну сол ва ҷинс" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c6d2574b-78b0-449c-9270-841cc13db1eb" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="bebc19b5-60ba-41b4-bddc-53b2e7c89c51" name="Интихоби узви бадан" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2cedfa5a-9e39-46d4-93cf-28356a0ba2be" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7b12525c-7ad1-4b8d-b972-c745009f8b84" name="Баровардани эҳтимолияти беморӣ" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8c040327-85a2-4083-9192-2e96c39f2b92" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="8ecf8772-d3a8-4f4c-9134-db7480e2d468" name="Назорати ташхис" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fb94bcad-6a39-4e56-a5dd-fdfddd1bef73" />
+        <targetEnds>
+          <association Id="b831b32e-8fc5-4273-b5e2-e471bd4588c5" isDerived="false" sourceEndRoleName="Назорати ташхис" targetEndRoleName="Ташхиси бархатии бемориҳо" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3e7f493b-da67-49ba-ad7d-fe3a102eed7f" LastKnownName="Ташхиси бархатии бемориҳо" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8c696159-1a42-4751-9d04-728bcfd49c69" name="Назорати ташхис" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="dbc82ec8-33e1-46e1-b7aa-77ea19da7160" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="260fb408-73e4-4519-891c-a6e1258bc15f" name="Ташхиси бархатии бемориҳо" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="dd660124-fe3b-45c2-8084-e34f3a0c8cf0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fdfcfa0c-487b-42c6-9c8d-d3446e9f6ee5" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="745f3b52-999e-4299-af8f-705ccc3a3d7c" name="Ивази маълумот" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5cf737e1-3c5b-4dae-b744-967e7b78e88d" />
+        <targetEnds>
+          <association Id="fdd9f17a-dee2-4b18-a0c8-e0d30b107b3c" isDerived="false" sourceEndRoleName="Ивази маълумот" targetEndRoleName="Тавсифи умумии бемори " isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="861ae3ad-6014-447f-b12d-c09c90c81f64" LastKnownName="Тавсифи умумии бемори " />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0d3cbbbb-f7e6-4d92-8c2d-baeafda37e04" name="Ивази маълумот" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="92c52c8b-52dc-4c02-9a8d-77f5ee05e47b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8fd6e7e6-2488-4c28-947c-3ac0abaf1153" name="Тавсифи умумии бемори " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="decfb574-6ca0-4a10-8bb3-ff2432467a82" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0d732897-3746-479a-9dd4-2ee05df42750" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="e29deb31-6763-4b28-8c2b-a04aac42117d" name="ModelingProject1">
+    <elementDefinition Id="61469916-6561-4b38-85fa-218d71762e89" />
+  </package>
+</useCaseModelRoot>

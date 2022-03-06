@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="433d8fd3-c515-4cc2-9e89-dfb8d95ba1f4" name="Activity2" linkedPackageId="4e5fb572-b0ae-42af-9fd4-f658e7b16981" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <ownedCommentsInternal>
+    <comment Id="95e69b8a-5dbb-43d8-8315-4390e7e14f7b">
+      <elementDefinition Id="0b06ae43-1194-491c-8a0e-a9bc1db0b4cc" />
+      <body>Интихоб дигар нишонаи беморӣ</body>
+    </comment>
+    <comment Id="7b0d1f57-58f1-4adb-af91-90580b567c9a">
+      <elementDefinition Id="e7a8560b-4155-437b-a196-81ac147cb83e" />
+      <body>Интихоби узви 
+дигар</body>
+    </comment>
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="37b9f139-4f2e-4afa-860d-d0e71539c4c1">
+      <profileInstance Id="f6a98738-3573-46f7-82ee-e7c8083ab0c4" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="23a385fa-3e8d-44a3-ab7c-ac1a4b2c93cd">
+      <profileInstance Id="3645b749-78a3-4746-94b7-f40c7c912897" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="9ef862bc-5f66-4cd9-af49-612208348c0f" name="Activity2" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="518628b0-2521-4e60-b3ce-a0c91c323fc4" />
+        <nodes>
+          <initialNode Id="482f63b8-d03b-46ee-b0bb-b7f1d70ba5f4" name="Initial1" isLeaf="false">
+            <elementDefinition Id="5bd5e697-79b8-43fb-949b-216e6ecd6ef1" />
+            <flowNodeTargets>
+              <controlFlow Id="8829c404-f231-4f22-babe-a2841ccd362d" isLeaf="false">
+                <opaqueActionMoniker Id="a60c9b74-8cf2-49b7-ae58-f1fa1f4b41d1" LastKnownName="Интихоби синну сол ва ҷинс" />
+                <elementDefinition Id="af67dab3-75da-409c-ac62-d7f5abe243f1" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <activityFinalNode Id="2e051e35-cdb5-4b0c-9972-1132dcaa6357" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="78ef3e9f-d5a3-4748-8943-5f011def2614" />
+          </activityFinalNode>
+          <opaqueAction Id="a60c9b74-8cf2-49b7-ae58-f1fa1f4b41d1" name="Интихоби синну сол ва ҷинс" isLeaf="false">
+            <elementDefinition Id="c20df6d5-fb32-454f-9415-9a09b64962ce" />
+            <flowNodeTargets>
+              <controlFlow Id="ad6e370d-38e8-4b46-a8be-748b66ed3e00" isLeaf="false">
+                <opaqueActionMoniker Id="cdc8d246-28f7-496f-869b-42fa8be9226f" LastKnownName="Воридкунии қимати  вазн ва қад" />
+                <elementDefinition Id="888bbb2a-019b-4181-bf2a-c8b42a060d41" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="cdc8d246-28f7-496f-869b-42fa8be9226f" name="Воридкунии қимати  вазн ва қад" isLeaf="false">
+            <elementDefinition Id="53d03f1a-2a3a-417d-a845-09b7a9d2270e" />
+            <flowNodeTargets>
+              <controlFlow Id="965c9d9c-4527-43ce-9070-1bf22fd2feb3" isLeaf="false">
+                <opaqueActionMoniker Id="190157c1-38bd-4f4a-ac40-8a131ee3af0e" LastKnownName="Интихоби узви бадан" />
+                <elementDefinition Id="e2a552b5-1c8d-4f0c-8a84-dcd7ad2ee5ff" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="190157c1-38bd-4f4a-ac40-8a131ee3af0e" name="Интихоби узви бадан" isLeaf="false">
+            <elementDefinition Id="5d359c43-e270-4f42-8ca8-f26750e2ee10" />
+            <flowNodeTargets>
+              <controlFlow Id="349290ed-a9a0-42ca-b7a6-e9ff705f1272" isLeaf="false">
+                <opaqueActionMoniker Id="087301a4-4c6f-4412-871b-9482c533eaaf" LastKnownName="Интихоби нишонаҳои беморӣ" />
+                <elementDefinition Id="f2e03388-ac18-4f62-ad32-8f733b00ba98" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="087301a4-4c6f-4412-871b-9482c533eaaf" name="Интихоби нишонаҳои беморӣ" isLeaf="false">
+            <elementDefinition Id="9df5d9a0-d6ad-4def-b779-208ee4f5ab26" />
+            <flowNodeTargets>
+              <controlFlow Id="092ceb9d-21e7-4761-b2f8-f4b4a332b603" isLeaf="false">
+                <opaqueActionMoniker Id="1e68e75e-52cf-4a95-b786-15c941a15082" LastKnownName="Баровардани эҳтимолияти беморӣ" />
+                <elementDefinition Id="9dc8e8c5-772a-49ba-9ef1-db17aa43e937" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="1e68e75e-52cf-4a95-b786-15c941a15082" name="Баровардани эҳтимолияти беморӣ" isLeaf="false">
+            <elementDefinition Id="4908c525-2c6a-4e8b-b965-be8f87bb498d" />
+            <flowNodeTargets>
+              <controlFlow Id="37235ed5-a21a-415f-978c-a314d794b7ee" isLeaf="false">
+                <decisionNodeMoniker Id="3e1641be-35bf-47b0-9866-a205ce319225" LastKnownName="Decision2" />
+                <elementDefinition Id="26979f17-e57e-41ca-ad64-bde18b6a532b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="3e1641be-35bf-47b0-9866-a205ce319225" name="Decision2" isLeaf="false">
+            <description>Интихоби нишонаи дигар</description>
+            <elementDefinition Id="c45a7b92-d82a-4278-9a34-964d5d7e10d2" />
+            <flowNodeTargets>
+              <controlFlow Id="9a284fac-62a7-4349-8b48-6c656732fba5" isLeaf="false">
+                <opaqueActionMoniker Id="087301a4-4c6f-4412-871b-9482c533eaaf" LastKnownName="Интихоби нишонаҳои беморӣ" />
+                <elementDefinition Id="78b259dc-4a4d-4f42-8b2c-cfe9a060f8f5" />
+              </controlFlow>
+              <controlFlow Id="4c4d4c26-7d43-4363-97ef-d9b5dff61ba4" isLeaf="false">
+                <decisionNodeMoniker Id="eee462e9-445e-4bac-a52b-0041f88330f7" LastKnownName="Decision1" />
+                <elementDefinition Id="0f2d161a-38d3-41c4-88cf-7fd4e296172b" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <decisionNode Id="eee462e9-445e-4bac-a52b-0041f88330f7" name="Decision1" isLeaf="false">
+            <elementDefinition Id="723818d9-7249-4c1b-9c00-b6cf1a9d2490" />
+            <flowNodeTargets>
+              <controlFlow Id="334235cb-c348-4052-b8d6-648f9e359fce" isLeaf="false">
+                <opaqueActionMoniker Id="190157c1-38bd-4f4a-ac40-8a131ee3af0e" LastKnownName="Интихоби узви бадан" />
+                <elementDefinition Id="91f7872b-d0cf-4419-8e5e-9108aaebdcdf" />
+              </controlFlow>
+              <controlFlow Id="7c8e69d5-379b-4ebc-bb19-35a86ac29085" isLeaf="false">
+                <activityFinalNodeMoniker Id="2e051e35-cdb5-4b0c-9972-1132dcaa6357" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="bbc3c9bf-0159-4839-bfb1-84ec8dbde3ad" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="4e5fb572-b0ae-42af-9fd4-f658e7b16981" name="ModelingProject1">
+    <elementDefinition Id="61469916-6561-4b38-85fa-218d71762e89" />
+  </package>
+</activityRootModel>

@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLUseCaseDiagram2">
+  <useCaseModelRootMoniker Id="8f3ab06f-a913-4a47-bfc6-6ba4197437b2" />
+  <nestedChildShapes>
+    <actorShape Id="006ade3f-6dc4-4fef-a6fa-497a4e064acb" absoluteBounds="1.875, 1.5, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="9c5e227a-7ecd-4551-8abb-bb7d2ce975d4" LastKnownName="Оддӣ" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="a857e851-2058-4fec-afa1-8da177d71b32" absoluteBounds="0.875, 2.5, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="717757f7-12f6-490f-b0c1-0b9735b7755c" LastKnownName="Истифодабаранда" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseGeneralizationConnector edgePoints="[(1.375 : 2.5); (1.875 : 2)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110">
+      <generalizationMoniker Id="b94e08af-38b3-4cd7-b786-b47cb86ec116" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="a857e851-2058-4fec-afa1-8da177d71b32" />
+        <actorShapeMoniker Id="006ade3f-6dc4-4fef-a6fa-497a4e064acb" />
+      </nodes>
+    </useCaseGeneralizationConnector>
+    <actorShape Id="209c7d1f-b3ab-46c2-b6b9-5ac260ff374a" absoluteBounds="1.75, 3.375, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="9107a2d3-723e-455c-a72d-3b2dfa63995d" LastKnownName="Аз қайд гузашта" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseGeneralizationConnector edgePoints="[(1.375 : 2.6815735484549); (1.83438030622938 : 3.375)]" fixedFrom="Caller" fixedTo="Algorithm" customColor="113, 111, 110">
+      <generalizationMoniker Id="12c74669-35c8-4c13-844b-a519dc24b196" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="a857e851-2058-4fec-afa1-8da177d71b32" />
+        <actorShapeMoniker Id="209c7d1f-b3ab-46c2-b6b9-5ac260ff374a" />
+      </nodes>
+    </useCaseGeneralizationConnector>
+    <actorShape Id="fb9132d4-3115-4b25-af87-b16a18ea4528" absoluteBounds="7.875, 3.625, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="e1a56140-31a1-4212-8901-8314120da9e3" LastKnownName="Мутахассиси тиб" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="9ee8c686-678d-4a9a-aa99-036df8d07be8" absoluteBounds="3.25, 4.875, 1.125, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="3e7f493b-da67-49ba-ad7d-fe3a102eed7f" LastKnownName="Ташхиси бархатии бемориҳо" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.25 : 3.84913793103448); (3.47685469393118 : 4.9490766221452)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="49633e92-4051-4095-8902-8b20ff37362d" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="209c7d1f-b3ab-46c2-b6b9-5ac260ff374a" />
+        <useCaseShapeMoniker Id="9ee8c686-678d-4a9a-aa99-036df8d07be8" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="99ab291a-42f3-4fb6-b1ff-7a55229213c8" absoluteBounds="2.875, 1.5, 1, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="f267b04a-b2e0-4330-9493-c25028795e23" LastKnownName="Бақайдгирӣ" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.375 : 1.7625); (2.87659236073194 : 1.7875796180366)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="15c4195a-c774-4ac9-8ab0-3ecb6fde94e5" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="006ade3f-6dc4-4fef-a6fa-497a4e064acb" />
+        <useCaseShapeMoniker Id="99ab291a-42f3-4fb6-b1ff-7a55229213c8" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="9fac3e5d-a16a-4280-a473-2ad3eb0e042e" absoluteBounds="4.5, 1, 1.125, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="5094b57b-0785-4bc3-993a-48e41f112336" LastKnownName="Маълумотҳои асосӣ" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(4.56617647058824 : 1.45955882352941); (3.82680075163644 : 1.67863311062624)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="cf0e90e4-118b-4bbf-bdf1-90babbe9c17d" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="9fac3e5d-a16a-4280-a473-2ad3eb0e042e" />
+        <useCaseShapeMoniker Id="99ab291a-42f3-4fb6-b1ff-7a55229213c8" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="53742f24-b596-4c0d-aeb7-c40c72cf04a4" absoluteBounds="2.875, 2.5, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="072bac50-6a87-4ce7-abb6-ac65596b017e" LastKnownName="Каталоги электронии бемориҳо" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.375 : 1.975); (3.05490780016776 : 2.58691702015098)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="a90fedfd-8c54-4c07-a78a-ceb028a7e0d8" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="006ade3f-6dc4-4fef-a6fa-497a4e064acb" />
+        <useCaseShapeMoniker Id="53742f24-b596-4c0d-aeb7-c40c72cf04a4" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(2.25 : 3.48863636363636); (2.97063195784841 : 3.09556438662814)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="e9af701c-3e52-411e-a233-3784861f171c" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="209c7d1f-b3ab-46c2-b6b9-5ac260ff374a" />
+        <useCaseShapeMoniker Id="53742f24-b596-4c0d-aeb7-c40c72cf04a4" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="4dc38b4b-9d2c-451d-baa3-7b1b4c639d45" absoluteBounds="4.25, 3.75, 1, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="372fa7b1-0e88-426c-a9f2-c6eca46f93f3" LastKnownName="Интихоби категория" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(4.46924929083137 : 3.80391382050258); (3.66820200440724 : 3.17875702270731)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black" useCaseStereotype="«включить»">
+      <includeMoniker Id="6f19bea8-6078-4ee6-a8d6-27ac47aa77d0" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="4dc38b4b-9d2c-451d-baa3-7b1b4c639d45" />
+        <useCaseShapeMoniker Id="53742f24-b596-4c0d-aeb7-c40c72cf04a4" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="e3f2ce75-d789-4ea3-8e01-000febed4535" absoluteBounds="2.875, 3.75, 1, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="7fdb6c3f-d66a-4f5b-923a-74c242157b83" LastKnownName="Интихоби бемори" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(3.15139320225002 : 3.78299150281253); (3.26822022297132 : 3.24134876765175)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black" useCaseStereotype="«включить»">
+      <includeMoniker Id="17ebaed0-6431-433f-9d2e-1e5e4023effb" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="e3f2ce75-d789-4ea3-8e01-000febed4535" />
+        <useCaseShapeMoniker Id="53742f24-b596-4c0d-aeb7-c40c72cf04a4" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="b7e93b24-ae64-482e-a66d-fdb8bd51dc5d" absoluteBounds="5.5, 3.125, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="861ae3ad-6014-447f-b12d-c09c90c81f64" LastKnownName="Тавсифи умумии бемори " />
+      <relativeChildShapes />
+    </useCaseShape>
+    <extendConnector edgePoints="[(3.87317416689042 : 2.84298194358323); (5.50299179201183 : 3.45903845497592)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black" useCaseStereotype="«расширить»">
+      <extendMoniker Id="c15844ae-402e-4725-8638-781ff459abc8" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="53742f24-b596-4c0d-aeb7-c40c72cf04a4" />
+        <useCaseShapeMoniker Id="b7e93b24-ae64-482e-a66d-fdb8bd51dc5d" />
+      </nodes>
+    </extendConnector>
+    <useCaseShape Id="793cd726-f015-4ba2-b7e1-0fb0e6dc306d" absoluteBounds="4.5, 2, 1.125, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="f103905b-6732-47a8-bf1d-48befd7972ff" LastKnownName="Ҷустуҷӯ" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(3.83190577431013 : 2.72269807522996); (4.58016022928669 : 2.4732799235711)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="0da59a06-ce9f-43be-9d76-b4bc9b3c5a17" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="53742f24-b596-4c0d-aeb7-c40c72cf04a4" />
+        <useCaseShapeMoniker Id="793cd726-f015-4ba2-b7e1-0fb0e6dc306d" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="51ed6ffe-22a6-46cc-88b8-6c0aaae1644e" absoluteBounds="1, 6, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="e006ae5b-7304-49d4-b536-c0b07163e3dd" LastKnownName="Воридкунииқимати вазн ва қад" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(3.41298499672961 : 5.51398149106991); (1.8848305081691 : 6.13558021700358)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black" useCaseStereotype="«включить»">
+      <includeMoniker Id="527d99ea-f3fb-40a8-85d5-e57d0fca84bd" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="9ee8c686-678d-4a9a-aa99-036df8d07be8" />
+        <useCaseShapeMoniker Id="51ed6ffe-22a6-46cc-88b8-6c0aaae1644e" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="042ace13-00fa-4d82-a6b9-e2550447d177" absoluteBounds="4.875, 6.75, 1.125, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="c97f8667-c420-4f09-9472-bab4e863938d" LastKnownName="Интихоби нишонаҳои бемориҳо" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(4.1116729453876 : 5.56756140176043); (5.00453101045742 : 6.8856080813631)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black" useCaseStereotype="«включить»">
+      <includeMoniker Id="2a6a6631-98a7-468a-a51f-fb86a4b3d325" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="9ee8c686-678d-4a9a-aa99-036df8d07be8" />
+        <useCaseShapeMoniker Id="042ace13-00fa-4d82-a6b9-e2550447d177" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="b4b0f5a7-76a0-4e1d-8b72-051504b5a1ea" absoluteBounds="2, 7.125, 1.125, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="1fdefa92-ee8a-4269-825a-11ef6065d818" LastKnownName="Интихоби синну сол ва ҷинс" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(3.62201218077018 : 5.60284282980454); (2.67204989173174 : 7.13218055684189)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black" useCaseStereotype="«включить»">
+      <includeMoniker Id="d2c22e45-eaeb-4902-891c-4066cf6910ed" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="9ee8c686-678d-4a9a-aa99-036df8d07be8" />
+        <useCaseShapeMoniker Id="b4b0f5a7-76a0-4e1d-8b72-051504b5a1ea" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="57849630-2f9d-4377-8b59-d67030f74f31" absoluteBounds="3.375, 7.5, 1.25, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="bebc19b5-60ba-41b4-bddc-53b2e7c89c51" LastKnownName="Интихоби узви бадан" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(3.80022412399047 : 5.62491068736031); (3.84316916896905 : 7.50999830974103)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black" useCaseStereotype="«включить»">
+      <includeMoniker Id="64cac600-a241-4c8b-8df4-213e7f3f0639" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="9ee8c686-678d-4a9a-aa99-036df8d07be8" />
+        <useCaseShapeMoniker Id="57849630-2f9d-4377-8b59-d67030f74f31" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="15f3e036-e14d-4edd-886e-72c7d6a21534" absoluteBounds="6.125, 6, 1.125, 0.875" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="7b12525c-7ad1-4b8d-b972-c745009f8b84" LastKnownName="Баровардани эҳтимолияти беморӣ" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(4.34878292964621 : 5.36315057690249); (6.14822129506915 : 6.31309267954545)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black" useCaseStereotype="«включить»">
+      <includeMoniker Id="d4731fa1-6c0c-45d0-9614-c9767380c194" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="9ee8c686-678d-4a9a-aa99-036df8d07be8" />
+        <useCaseShapeMoniker Id="15f3e036-e14d-4edd-886e-72c7d6a21534" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="446d11c6-5ba7-4e95-b974-8e5aee9397f1" absoluteBounds="5.5, 4.375, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="8ecf8772-d3a8-4f4c-9134-db7480e2d468" LastKnownName="Назорати ташхис" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.875 : 3.97794117647059); (6.4382892753898 : 4.56952794542773)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="66ca2555-55b3-4606-b9ba-9b0ccacb852f" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="fb9132d4-3115-4b25-af87-b16a18ea4528" />
+        <useCaseShapeMoniker Id="446d11c6-5ba7-4e95-b974-8e5aee9397f1" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(5.52171825926487 : 4.85932154073946); (4.34459459459459 : 5.12837837837838)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="b831b32e-8fc5-4273-b5e2-e471bd4588c5" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="446d11c6-5ba7-4e95-b974-8e5aee9397f1" />
+        <useCaseShapeMoniker Id="9ee8c686-678d-4a9a-aa99-036df8d07be8" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="ad99c2f3-09a9-42cb-ae53-4a81f357616d" absoluteBounds="6.375, 2.25, 1.125, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="745f3b52-999e-4299-af8f-705ccc3a3d7c" LastKnownName="Ивази маълумот" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.89880952380952 : 3.625); (7.19012075160038 : 2.84171240966358)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="07c2616b-d74b-40d3-b6e8-74105606a43b" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="fb9132d4-3115-4b25-af87-b16a18ea4528" />
+        <useCaseShapeMoniker Id="ad99c2f3-09a9-42cb-ae53-4a81f357616d" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(6.66432585121202 : 2.83567414878798); (6.3 : 3.2)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="fdd9f17a-dee2-4b18-a0c8-e0d30b107b3c" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="ad99c2f3-09a9-42cb-ae53-4a81f357616d" />
+        <useCaseShapeMoniker Id="b7e93b24-ae64-482e-a66d-fdb8bd51dc5d" />
+      </nodes>
+    </useCaseAssociationConnector>
+  </nestedChildShapes>
+</useCaseDiagram>
